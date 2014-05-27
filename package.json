@@ -1,0 +1,30 @@
+{
+  "name": "bo-slug",
+  "version": "0.0.1",
+  "description": "Teaches Bo to slugify strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha test --recursive -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bredikhin/bo-slug.git"
+  },
+  "keywords": [
+    "bo",
+    "cli",
+    "slug"
+  ],
+  "author": "Ruslan Bredikhin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredikhin/bo-slug/issues"
+  },
+  "homepage": "https://github.com/bredikhin/bo-slug",
+  "dependencies": {
+    "slugg": "^0.1.2"
+  },
+  "devDependencies": {
+    "should": "^3.3.2"
+  }
+}
