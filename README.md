@@ -1,35 +1,27 @@
-# Simple CLI Bot
+# Teaches Bo to slugify a string
 
-[![Build Status](https://travis-ci.org/bredikhin/bo.png?branch=master)](https://travis-ci.org/bredikhin/bo)
-[![NPM version](https://badge.fury.io/js/bo.png)](http://badge.fury.io/js/bo)
+[![Build Status](https://travis-ci.org/bredikhin/bo-slug.png?branch=master)](https://travis-ci.org/bredikhin/bo-slug)
+[![NPM version](https://badge.fury.io/js/bo-slug.png)](http://badge.fury.io/js/bo-slug)
 
 ## Installation
 
-`sudo npm install -g bo`
+`sudo npm install -g bo-slug`
 
-[![NPM](https://nodei.co/npm/bo.png)](https://nodei.co/npm/bo/)
+[![NPM](https://nodei.co/npm/bo-slug.png)](https://nodei.co/npm/bo-slug/)
 
 ## Usage
 
-`bo <command>`.
-
-## Commands
-
-- slug <string>
+`bo slug <string>`.
 
 ## Dependencies
 
-- [commander](https://www.npmjs.org/package/commander),
-- [async](https://github.com/caolan/async),
-- [lodash](https://www.npmjs.org/package/lodash).
+- [slugg](https://www.npmjs.org/package/slugg).
 
 ## Contributions
 
 * are welcome;
 * should be tested;
 * should follow the same coding style.
-
-Keep it simple, minimum bells and whistles, please.
 
 ## License
 
